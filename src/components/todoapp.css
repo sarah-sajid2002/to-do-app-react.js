@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -88,4 +88,24 @@ header button:hover {
 .error {
   color: #ffd700;
   text-transform: uppercase;
+}
+@media (max-width: 1500px) {
+  .mainDiv {
+    width: 60vw;
+  }
+}
+@media (max-width: 500px) {
+  .mainDiv {
+    width: 80vw;
+  }
+}
+@media (max-width: 300px) {
+  .mainDiv {
+    width: 90vw;
+  }
+}
+@media (max-height: 600px) {
+  .mainDiv {
+    height: 90vh;
+  }
 }
